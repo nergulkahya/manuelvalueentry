@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\manuelvalueentry.database\manuelvalueentry.database.csproj" />
+    <ProjectReference Include="..\manuelvalueentry.entity\manuelvalueentry.entity.csproj" />
+  </ItemGroup>
+
 </Project>

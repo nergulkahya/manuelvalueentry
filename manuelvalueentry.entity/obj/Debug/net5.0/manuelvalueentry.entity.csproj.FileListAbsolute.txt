@@ -1,0 +1,12 @@
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\bin\Debug\net5.0\manuelvalueentry.entity.deps.json
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\bin\Debug\net5.0\manuelvalueentry.entity.dll
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\bin\Debug\net5.0\manuelvalueentry.entity.pdb
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.csproj.AssemblyReference.cache
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.AssemblyInfoInputs.cache
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.AssemblyInfo.cs
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.csproj.CoreCompileInputs.cache
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.dll
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\refint\manuelvalueentry.entity.dll
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\manuelvalueentry.entity.pdb
+C:\Users\nergul.kahya\Desktop\CANTEK-FARMINOVA\React_Projects\manuelvalueentry\manuelvalueentry.entity\obj\Debug\net5.0\ref\manuelvalueentry.entity.dll

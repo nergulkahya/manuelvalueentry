@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manuelvalueentry.database", "manuelvalueentry.database\manuelvalueentry.database.csproj", "{C67B238E-9B96-45DD-BBE3-3061D413C779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manuelvalueentry.database", "manuelvalueentry.database\manuelvalueentry.database.csproj", "{C67B238E-9B96-45DD-BBE3-3061D413C779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manuelvalueentry.entity", "manuelvalueentry.entity\manuelvalueentry.entity.csproj", "{2AFAC838-6A20-4F17-88ED-058337D0C75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manuelvalueentry.entity", "manuelvalueentry.entity\manuelvalueentry.entity.csproj", "{2AFAC838-6A20-4F17-88ED-058337D0C75B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manuelvalueentry.bussiness", "manuelvalueentry.bussiness\manuelvalueentry.bussiness.csproj", "{BCCE6B66-7B1B-4BD6-8E8A-4A6E7D695BAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manuelvalueentry.bussiness", "manuelvalueentry.bussiness\manuelvalueentry.bussiness.csproj", "{BCCE6B66-7B1B-4BD6-8E8A-4A6E7D695BAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manuelvalueentry.api", "manuelvalueentry.api\manuelvalueentry.api.csproj", "{77E3E2BE-609C-4412-B5BB-001F0BF0052D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "manuelvalueentry.core", "manuelvalueentry.core\manuelvalueentry.core.csproj", "{58E2DB4E-5E20-46A2-AE9A-E3B7218F8283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manuelvalueentry.core", "manuelvalueentry.core\manuelvalueentry.core.csproj", "{58E2DB4E-5E20-46A2-AE9A-E3B7218F8283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manuelvalueentry.api", "manuelvalueentry.api\manuelvalueentry.api.csproj", "{9D0CB068-6DC4-47C3-9546-0250DB2FE7BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{BCCE6B66-7B1B-4BD6-8E8A-4A6E7D695BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCCE6B66-7B1B-4BD6-8E8A-4A6E7D695BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCCE6B66-7B1B-4BD6-8E8A-4A6E7D695BAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77E3E2BE-609C-4412-B5BB-001F0BF0052D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77E3E2BE-609C-4412-B5BB-001F0BF0052D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77E3E2BE-609C-4412-B5BB-001F0BF0052D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77E3E2BE-609C-4412-B5BB-001F0BF0052D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58E2DB4E-5E20-46A2-AE9A-E3B7218F8283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58E2DB4E-5E20-46A2-AE9A-E3B7218F8283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E2DB4E-5E20-46A2-AE9A-E3B7218F8283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E2DB4E-5E20-46A2-AE9A-E3B7218F8283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0CB068-6DC4-47C3-9546-0250DB2FE7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0CB068-6DC4-47C3-9546-0250DB2FE7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0CB068-6DC4-47C3-9546-0250DB2FE7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0CB068-6DC4-47C3-9546-0250DB2FE7BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
