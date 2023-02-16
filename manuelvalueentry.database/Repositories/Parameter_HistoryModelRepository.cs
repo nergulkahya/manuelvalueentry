@@ -28,12 +28,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<Parameter_HistoryModel> GetAllParameter_History()
         {
-            List<Parameter_HistoryModel> _parameter_historyList = _context.Parameter_HistoryModels.ToList();
+            List<Parameter_HistoryModel> _parameter_historyList = _context.Parameter_History.ToList();
             return _parameter_historyList;
         }
         public Parameter_HistoryModel GetById(int id)
         {
-            Parameter_HistoryModel _parameter_history = _context.Parameter_HistoryModels.Find(id);
+            Parameter_HistoryModel _parameter_history = _context.Parameter_History.Find(id);
             return _parameter_history;
         }
         public void UpdateParameter_History(Parameter_HistoryModel parameter_history)

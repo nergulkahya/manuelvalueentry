@@ -25,12 +25,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<ParameterModel> GetAllParameter()
         {
-            List<ParameterModel> _parameterList = _context.ParameterModels.ToList();
+            List<ParameterModel> _parameterList = _context.Parameter.ToList();
             return _parameterList;
         }
         public ParameterModel GetById(int id)
         {
-            ParameterModel _paramater = _context.ParameterModels.Find(id);
+            ParameterModel _paramater = _context.Parameter.Find(id);
             return _paramater;
         }
         public void UpdateParameter(ParameterModel parameter)

@@ -28,12 +28,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<UserModel> GetAllUser()
         {
-            List<UserModel> _userList = _context.UserModels.ToList();
+            List<UserModel> _userList = _context.User.ToList();
             return _userList;
         }
         public UserModel GetById(int id)
         {
-            UserModel _user = _context.UserModels.Find(id);
+            UserModel _user = _context.User.Find(id);
             return _user;
         }
         public void UpdateUser(UserModel user)

@@ -29,12 +29,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<RoleModel> GetAllRole()
         {
-            List<RoleModel> _roleList = _context.RoleModels.ToList();
+            List<RoleModel> _roleList = _context.Role.ToList();
             return _roleList;
         }
         public RoleModel GetById(int id)
         {
-            RoleModel _role = _context.RoleModels.Find(id);
+            RoleModel _role = _context.Role.Find(id);
             return _role;
         }
         public void UpdateRole(RoleModel role)

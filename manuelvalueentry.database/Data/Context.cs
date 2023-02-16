@@ -6,14 +6,14 @@ namespace Manuelvalueentry.Database.Data
     public class Context:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
-            optionsBuilder.UseSqlServer("server=DESKTOP-C7IMFHQ\\SQLEXPRESS;database=ManuelValueEntryDB;integrated security=true;");
+            optionsBuilder.UseSqlServer("server=./sqlserver;database=MANUELVALUEENTRY_DB;integrated security=true;");
         }
-        public DbSet<FactoryModel> FactoryModels { get; set; }
-        public DbSet<RoomModel> RoomModels { get; set; }
-        public DbSet<ParameterModel> ParameterModels { get; set; }
-        public DbSet<Parameter_HistoryModel> Parameter_HistoryModels { get; set; }
-        public DbSet<Room_ParameterModel> Room_ParameterModels { get; set; }
-        public DbSet<UserModel> UserModels { get; set; }
-        public DbSet<RoleModel> RoleModels { get; set; }
+        public DbSet<FactoryModel> Factory { get; set; }
+        public DbSet<RoomModel> Room { get; set; }
+        public DbSet<ParameterModel> Parameter { get; set; }
+        public DbSet<Parameter_HistoryModel> Parameter_History { get; set; }
+        public DbSet<Room_ParameterModel> Room_Parameter{ get; set; }
+        public DbSet<UserModel> User{ get; set; }
+        public DbSet<RoleModel> Role { get; set; }
     }
 }

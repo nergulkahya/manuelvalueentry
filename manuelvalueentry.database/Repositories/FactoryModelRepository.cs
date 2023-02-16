@@ -28,12 +28,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<FactoryModel> GetAllFactory()
         {
-            return _context.FactoryModels.ToList();
+            return _context.Factory.ToList();
         }
 
         public FactoryModel GetById(int id)
         {
-            return _context.FactoryModels.Find(id);
+            return _context.Factory.Find(id);
         }
         public void UpdateFactory(FactoryModel factory)
         {

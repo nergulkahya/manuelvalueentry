@@ -25,12 +25,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<Room_ParameterModel> GetAll()
         {
-            List<Room_ParameterModel> _room_parameterList = _context.Room_ParameterModels.ToList();
+            List<Room_ParameterModel> _room_parameterList = _context.Room_Parameter.ToList();
             return _room_parameterList;
         }
         public Room_ParameterModel GetById(int id)
         {
-            Room_ParameterModel _room_parameter = _context.Room_ParameterModels.Find(id);
+            Room_ParameterModel _room_parameter = _context.Room_Parameter.Find(id);
             return _room_parameter;
         }
         public void UpdateRoom_Parameter(Room_ParameterModel room_parameter)

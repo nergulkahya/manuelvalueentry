@@ -28,12 +28,12 @@ namespace Manuelvalueentry.Database.Repositories
         }
         public List<RoomModel> GetAllRoom()
         {
-            List<RoomModel> _roomList = _context.RoomModels.ToList();
+            List<RoomModel> _roomList = _context.Room.ToList();
             return _roomList;
         }
         public RoomModel GetById(int id)
         {
-            RoomModel _room = _context.RoomModels.Find(id);
+            RoomModel _room = _context.Room.Find(id);
             return _room;
         }
         public void UpdateRoom(RoomModel room)
